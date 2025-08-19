@@ -33,7 +33,7 @@ docsearch = PineconeVectorStore.from_existing_index(
     embedding=embeddings
 )
 
-S
+
 
 
 retriever = docsearch.as_retriever(search_type="similarity", search_kwargs={"k":3})
