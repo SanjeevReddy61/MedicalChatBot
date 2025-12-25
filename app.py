@@ -28,7 +28,6 @@ if not GROQ_API_KEY:
     raise RuntimeError("GROQ_API_KEY is missing")
 
 # -------------------- EMBEDDINGS & VECTOR STORE --------------------
-embeddings = download_embeddings()
 
 index_name = "medical-chatbot"
 vectorstore = PineconeVectorStore.from_existing_index(
