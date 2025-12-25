@@ -7,6 +7,7 @@ langchain-groq
 langchain-pinecone
 langchain-text-splitters
 langchain-community
+langchain-huggingface   # ✅ ADD THIS
 
 pinecone-client
 huggingface-hub
