@@ -11,4 +11,3 @@ langchain-huggingface   # ✅ ADD THIS
 
 pinecone-client
 huggingface-hub
-sentence-transformers
